@@ -1,11 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@400;700&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif;
-    padding: 20px;
     margin: 0 auto;
+    width:100vw;
 }
 
-p{
+strong{
+    font-weight: bolder;
+}
+
+
+header{
+    line-height: 1.5;
+}
+
+.quote{
+    height:calc(100vh~48px);
+    font-family: 'Oswald', sans-serif;
+  position: fixed;
+  writing-mode: vertical-rl;
+  transform: rotateZ(180deg);
+  padding: 40px;
+  padding-top: 20px;
+}
+
+h1{
+    color: blue;
+    font-size: 230%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 230%;
+}
+
+h2{
+    font-style: italic;
+    padding-bottom: 100px;
+}
+
+.body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 100px;
     line-height: 2;
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+a{
+    color:blueviolet;
+    text-decoration: underline;
 }
