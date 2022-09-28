@@ -15,18 +15,18 @@ header{
 }
 
 .quote{
-    height:calc(100vh~48px);
     font-family: 'Oswald', sans-serif;
   position: fixed;
   writing-mode: vertical-rl;
   transform: rotateZ(180deg);
   padding: 40px;
   padding-top: 20px;
+  display:block;
 }
 
 h1{
     color: blue;
-    font-size: 230%;
+    font-size: 1.75vw;
     margin: 0 auto;
     text-transform: uppercase;
 }
@@ -45,7 +45,7 @@ h2{
     padding: 100px;
     line-height: 2;
     font-size: 25px;
-    margin-left: 300px;
+    margin-left: 15vw;
 }
 
 a{
